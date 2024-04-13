@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { simplifiedProduct } from "../interface";
 
+export const dynamic = "force-dynamic";
+
 const CategoryPage: React.FC<{ params: { category: string } }> = async ({
   params,
 }) => {

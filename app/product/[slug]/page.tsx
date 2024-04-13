@@ -7,6 +7,8 @@ import { Star, Truck } from "lucide-react";
 import AddToBag from "@/components/AddToBag";
 import CheckoutNow from "@/components/CheckoutNow";
 
+export const dynamic = "force-dynamic";
+
 const ProductPage: React.FC<{ params: { slug: string } }> = async ({
   params,
 }) => {
